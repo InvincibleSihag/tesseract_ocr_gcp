@@ -75,17 +75,19 @@ class FlutterTesseractOcr {
 
   static Future _copyTessDataToAppDocumentsDirectory(
       String tessdataDirectory) async {
-    final String config = await rootBundle.loadString(TESS_DATA_CONFIG);
-    Map<String, dynamic> files = jsonDecode(config);
-    for (var file in files["files"]) {
-      if (!await File('$tessdataDirectory/$file').exists()) {
-        final ByteData data = await rootBundle.load('$TESS_DATA_PATH/$file');
-        final Uint8List bytes = data.buffer.asUint8List(
-          data.offsetInBytes,
-          data.lengthInBytes,
-        );
-        await File('$tessdataDirectory/$file').writeAsBytes(bytes);
+    try{
+      final String config = await rootBundle.loadString(TESS_DATA_CONFIG);
+      Map<String, dynamic> files = jsonDecode(config);
+      for (var file in files["files"]) {
+        if (!await File('$tessdataDirectory/$file').exists()) {
+          final ByteData data = await rootBundle.load('$TESS_DATA_PATH/$file');
+          final Uint8List bytes = data.buffer.asUint8List(
+            data.offsetInBytes,
+            data.lengthInBytes,
+          );
+          await File('$tessdataDirectory/$file').writeAsBytes(bytes);
+        }
       }
-    }
+    }catch(e){/**/}
   }
 }
