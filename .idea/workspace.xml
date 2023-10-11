@@ -23,11 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b23e96-81e8-425c-912e-350b04bb783b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/io/paratoner/tesseract_ocr/TesseractOcrPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/io/paratoner/tesseract_ocr/TesseractOcrPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tesseract_ocr.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tesseract_ocr.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/io/paratoner/flutter_tesseract_ocr/FlutterTesseractOcrPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/io/paratoner/flutter_tesseract_ocr/FlutterTesseractOcrPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterTesseractOcrPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterTesseractOcrPlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftFlutterTesseractOcrPlugin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/flutter_tesseract_ocr.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/android_ios.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/android_ios.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tesseract_ocr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tesseract_ocr.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +54,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1rC0KYT9xSIADDbpEkEicZ97wtg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/tesseract4android-release" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/alectio/Aliens/tesseract_ocr_gcp",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\git\QuanotesX\packages\tesseract_ocr\example" />
@@ -93,61 +110,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1036" y="403" key="#xdebugger.evaluate" timestamp="1618468456399">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1036" y="403" key="#xdebugger.evaluate/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618468456399" />
-    <state width="484" height="466" key="DebuggerActiveHint" timestamp="1618468134902">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="484" height="466" key="DebuggerActiveHint/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618468134902" />
-    <state x="1062" y="442" key="FileChooserDialogImpl" timestamp="1618650218493">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="637" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618646287944" />
-    <state x="1061" y="442" key="FileChooserDialogImpl/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618476316683" />
-    <state x="1062" y="442" key="FileChooserDialogImpl/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618650218493" />
-    <state width="1258" height="400" key="GridCell.Tab.0.bottom" timestamp="1618652604471">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618484300732" />
-    <state width="1258" height="400" key="GridCell.Tab.0.bottom/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618652604471" />
-    <state width="1258" height="400" key="GridCell.Tab.0.center" timestamp="1618652604471">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618484300732" />
-    <state width="1258" height="400" key="GridCell.Tab.0.center/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618652604471" />
-    <state width="1258" height="400" key="GridCell.Tab.0.left" timestamp="1618652604470">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618484300731" />
-    <state width="1258" height="400" key="GridCell.Tab.0.left/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618652604470" />
-    <state width="1258" height="400" key="GridCell.Tab.0.right" timestamp="1618652604471">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618484300732" />
-    <state width="1258" height="400" key="GridCell.Tab.0.right/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618652604471" />
-    <state x="789" y="345" key="SettingsEditor" timestamp="1618497209916">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="789" y="345" key="SettingsEditor/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618484296070" />
-    <state x="789" y="345" key="SettingsEditor/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618497209916" />
-    <state x="847" y="429" width="865" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1618467932895">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="847" y="429" width="865" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618467932895" />
-    <state x="419" y="380" width="579" height="534" key="find.popup" timestamp="1618495825751">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="990" y="433" width="579" height="534" key="find.popup/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618470712334" />
-    <state x="419" y="380" width="579" height="534" key="find.popup/2279.2592.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618495825751" />
-    <state x="854" y="384" key="new project wizard" timestamp="1618472370951">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="854" y="384" key="new project wizard/1899.2160.1536.824/0.0.2560.1400@0.0.2560.1400" timestamp="1618472370951" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

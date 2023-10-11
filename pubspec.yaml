@@ -15,8 +15,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: ^2.0.12
-  path: ^1.8.2
+  path_provider: ^2.1.1
+  path: ^1.8.3
   js: ^0.6.5
 
 dev_dependencies:
@@ -40,10 +40,6 @@ flutter:
       android:
         package: io.paratoner.flutter_tesseract_ocr
         pluginClass: FlutterTesseractOcrPlugin
-      ios:
-        pluginClass: FlutterTesseractOcrPlugin
-      web:
-        default_package: FlutterTesseractOcrPlugin
 
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
